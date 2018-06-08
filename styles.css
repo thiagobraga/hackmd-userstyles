@@ -1,3 +1,4 @@
+@-moz-document regexp("https://.*hackmd.io/.*") {
 /**
  * Typography
  * =============================================
@@ -255,11 +256,10 @@
  * ----------------------------------------
  */
 .ui-infobar {
-  position: absolute;
-  top: -10px;
-  z-index: 10000;
-  left: 50%;
-  width: 268px;
+  position:    absolute;
+  top:         -10px;
+  z-index:     10000;
+  left:        50%;
   margin-left: -134px;
 }
 
@@ -310,7 +310,7 @@ body,
 .ui-view-area,
 .markdown-body,
 .ui-content {
-  background: #1f2226;
+  background: #1f2226 !important;
   color:      #abb2bf;
 }
 
@@ -616,4 +616,5 @@ button.close {
 
 .CodeMirror-lines .cm-m-markdown[style^="background-color: rgba(255, 230, 230, 0.7); text-decoration: line-through;"] {
   background-color: #a52721 !important;
+}
 }
