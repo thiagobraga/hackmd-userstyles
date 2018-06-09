@@ -72,6 +72,11 @@
 }
 
 
+.list li .item {
+  background-color: #24282b !important;
+  color:            #c5c5c5 !important;
+}
+
 /**
  * CodeMirror section
  * ============================================
@@ -120,7 +125,7 @@
 .CodeMirror .cm-header-1 {
   display:        inline-block;
   border-bottom:  1px solid #444;
-  font-size:      28px;
+  font-size:      30.8px;
   line-height:    34px;
   padding-bottom: 2px;
   padding-top:    20px;
@@ -215,17 +220,24 @@
  */
 .markdown-body h1 {
   display:        inline-block;
+  font-size:      2.2em;
   padding-bottom: 2px;
-  margin-bottom:  20px;
+  margin-top:     0;
+  margin-bottom:  25px;
 }
 
 .markdown-body h2 {
   border-bottom:  0;
-  font-size:      1.3em;
+  font-size:      2em;
   padding-bottom: 2px;
-  margin-top:     25px;
-  margin-bottom:  24px;
+  margin-top:     0;
+  margin-bottom:  25px;
 }
+
+.markdown-body h3 { font-size: 1.6em; }
+.markdown-body h4 { font-size: 1.5em; }
+.markdown-body h5 { font-size: 1.3em; font-weight: 400; }
+.markdown-body h6 { font-size: 1em; font-weight: 400; text-transform: uppercase; }
 
 /**
  * Lists
