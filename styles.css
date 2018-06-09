@@ -2,10 +2,6 @@
 /**
  * Typography
  * =============================================
- *
- * Using Google Fonts to achieve better visualization.
- * I'm using PT Sans and Source Code Pro, but actually
- * only PT Sans is being used.
  */
 
 /**
@@ -566,7 +562,12 @@ mark {
 
 /*--------------- code mirror ---------------*/
 .modal-content {
-  background: #1f2226;
+  background: #1f2226 !important;
+}
+
+.modal-title,
+.modal-body {
+  color: #dedede !important;
 }
 
 .modal-header {
