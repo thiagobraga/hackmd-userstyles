@@ -156,6 +156,11 @@
   color: #6797c7;
 }
 
+.CodeMirror .cm-url {
+  color:    #777;
+  font-size: 12px;
+}
+
 /**
  * Lists
  * ----------------------------------------
@@ -371,7 +376,12 @@ body,
 }
 
 .markdown-body pre code {
-  color: #333 !important;
+  color: #bdbdbd !important;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  background-color: #141619 !important;
 }
 
 blockquote .small,
