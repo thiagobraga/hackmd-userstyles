@@ -2,10 +2,6 @@
 /**
  * Typography
  * =============================================
- *
- * Using Google Fonts to achieve better visualization.
- * I'm using PT Sans and Source Code Pro, but actually
- * only PT Sans is being used.
  */
 
 /**
@@ -125,7 +121,7 @@
 .CodeMirror .cm-header-1 {
   display:        inline-block;
   border-bottom:  1px solid #444;
-  font-size:      30.8px;
+  font-size:      33.6px;
   line-height:    34px;
   padding-bottom: 2px;
   padding-top:    20px;
@@ -133,11 +129,16 @@
 
 .CodeMirror .cm-header-2 {
   display:        inline-block;
-  font-size:      1.3em;
+  font-size:      28px;
   margin-bottom:  0;
   margin-top:     4px;
   padding-bottom: 0;
 }
+
+.CodeMirror .cm-header-3 { font-size: 22.4px; }
+.CodeMirror .cm-header-4 { font-size: 21px; }
+.CodeMirror .cm-header-5 { font-size: 18.2px; font-weight: 400; }
+.CodeMirror .cm-header-6 { font-size: 14px; font-weight: 400; text-transform: uppercase; }
 
 /**
  * Text
@@ -197,6 +198,14 @@
   box-shadow:       none;
 }
 
+.ui-status-lastchange {
+  display: none;
+}
+
+.CodeMirror .cm-comment {
+  color:      #7e838e !important;
+  font-style: normal !important;
+}
 
 /**
  * View Area
@@ -220,7 +229,7 @@
  */
 .markdown-body h1 {
   display:        inline-block;
-  font-size:      2.2em;
+  font-size:      2.4em;
   padding-bottom: 2px;
   margin-top:     0;
   margin-bottom:  25px;
